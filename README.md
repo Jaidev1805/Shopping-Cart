@@ -1,6 +1,6 @@
 # Shopping Cart App
 
-A responsive React-based e-commerce storefront showcasing a multi-page application with functional cart operations.
+A responsive React-based e-commerce storefront showcasing a single-page application with functional cart operations.
 
 This project was built as part of [The Odin Project's Node Path - React New Shopping Cart Project](https://www.theodinproject.com/lessons/node-path-react-new-shopping-cart#project-solution).
 
