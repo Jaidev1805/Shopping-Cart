@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Asimovian&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    background-color: #333;
+    padding: 1rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    letter-spacing: 2px;
+    gap: 2rem;
+}
+
+.navbar-links li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-links a:hover {
+    transition: 0.2s ease-in-out;
+    color: #ffb508;
+}
+
+.cart-link {
+    position: relative;
+}
+
+#cart-badge {
+    margin-left: 10px;
+    background-color: #ffb508;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}

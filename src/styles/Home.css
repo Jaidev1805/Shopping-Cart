@@ -1,0 +1,30 @@
+.home-heading {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.home-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.home-link {
+    display: block;
+    width: fit-content;
+    margin: 1rem auto;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: #ffb508;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.home-link:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #ffb508;
+    color: white;
+}

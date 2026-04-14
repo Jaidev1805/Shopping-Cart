@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Asimovian&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.product-card {
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.product-card .product-category {
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0.5rem 0;
+    padding: 8px 10px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    color: #474747;
+}
+
+.product-card .product-price {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.product-quantity button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ebebeb;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+
+.product-quantity input {
+    width: 30px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.add-to-cart {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 3px;
+}
+
+.add-to-cart:hover,
+.product-quantity button:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #ffb508;
+    color: white;
+}

@@ -1,0 +1,134 @@
+.product-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2rem;
+}
+
+.product-details img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-details-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-details-info h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.product-details-info .product-category {
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0.5rem 0;
+    padding: 8px 10px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    color: #474747;
+}
+
+.product-details-info .product-price {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-details-info .add-to-cart {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ffb508;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 3px;
+}
+
+.product-details-info .add-to-cart:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #ffb508;
+    color: white;
+}
+
+.product-details-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.product-quantity button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ebebeb;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+
+.product-quantity input {
+    width: 30px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.product-other-details-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    border-top: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product-other-details-info p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.product-other-details-info svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+    color: #ffb508;
+}
+
+.product-other-details-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
